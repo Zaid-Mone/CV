@@ -1,0 +1,264 @@
+
+/*.parent{
+    margin:20px auto;
+    width: 800px;
+    height: 500px;
+    background: #eee;
+    display: grid;
+    grid-template-columns:repeat(4,auto) ;
+    grid-template-rows:repeat(3,auto);
+    gap:10px 10px;
+    /* gap: row-gap  column-gap
+    justify-content:space-between;
+    align-content: space-between; 
+
+}
+.parent div {
+    padding: 20px;
+    background:red;
+    color: white;
+    text-align: center;
+}
+.child{
+    margin:20px auto;
+    width: 800px;
+    height: 500px;
+    background: #eee;
+    display:flex;
+    gap:10px 10px;
+    flex-direction: row;
+    justify-content:center;
+    align-content: space-evenly;
+    
+}
+.child div{
+    padding: 20px;
+    background:red;
+    color: white;
+    text-align: center;
+} */
+
+
+table
+{
+   width: 1000px;
+   border: 5px solid black;
+   margin-left: 30%;
+   background-repeat: no-repeat;
+   margin: 10;
+
+   
+}
+th{
+    height: 1350px;
+    display: grid;
+    
+}
+table th img{
+    width:300px;
+    height:300px;
+    display: grid;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.profilefinfo{
+    width:600px ;
+    margin-left: 340px;
+    margin-top: -250px;
+    text-align: justify;
+    border-radius: none;
+}
+.profile{
+    border-bottom: 5px solid yellow;
+    width:120px
+}
+.name{
+    width:1000px;
+    margin-top:22px ;
+    background:rgb(245, 242, 77);
+    
+}
+.heading1 {
+ 
+   text-align: center;
+   position: relative;
+   top:15px;
+   
+    
+}
+.heading2{
+   background: black;
+   color: white;
+   width: 330px;
+   z-index: 1;
+   position: relative;
+   top:-27px;
+   padding:4px;
+    
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.contact{
+    width: 300px;
+    background: rgb(68, 67, 67);
+    color: white;
+    margin-top: -7px;
+    font-size: 11px;
+    height: 280px;
+}
+.mycontact{
+    margin-left: 40px;
+    font-size: 25px;
+}
+.mylocation{
+    margin-left: 40px;
+}
+.myphonenumber{
+    margin-left: 40px;
+}
+.myemail{
+    margin-left: 40px;
+}
+.myfacebook{
+    margin-left: 40px;
+}
+.mylocation span{
+    margin-left: 30px;
+}
+.myphonenumber span{
+    margin-left: 30px;
+}
+.myemail span{
+    margin-left: 28px;
+}
+.myfacebook span{
+    margin-left: 35px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.expertise{
+    width: 300px;
+    background: rgb(48, 47, 47);
+    color: white;
+    margin-top: -7px;
+    font-size: 11px;
+    height: 280px;
+    
+}
+.Expertise{
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+progress {
+    border: none;
+   
+    background: crimson;
+  }
+  
+  progress {
+    color: lightblue;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+  
+  progress::-webkit-progress-value {
+    background: yellow;
+  }
+  
+  progress::-webkit-progress-bar {
+      border: 1px solid yellow;
+    background: rgb(68, 67, 67);
+  }
+.prog1{
+    margin-left: 40px;
+}
+.prog1 progress {
+    margin-left: 33px;
+   
+}
+.prog2{
+    margin-left: 40px;
+}
+.prog2 progress {
+    margin-left: 33px;
+   
+}
+.prog3{
+    margin-left: 40px;
+}
+.prog3 progress {
+    margin-left: 33px;
+   
+}
+.prog4{
+    margin-left: 40px;
+}
+.prog4 progress {
+    margin-left: 33px;
+   
+}
+/*------------------------------------------------------------------------------------------*/
+.education{
+    width: 300px;
+    background:black;
+    color:white;
+    border-top:1px solid wheat;
+    padding:2px;
+    height: 405px;
+}
+.Education{
+    margin-left: 40px;
+}
+.uniname{
+    margin-left: 40px;
+}
+.collname{
+    margin-left: 40px;
+}
+.schname{
+    margin-left: 40px;
+}
+.date1{
+    margin-left: 35px;
+}
+
+.date2{
+     margin-left: 55px;
+}
+.date3{
+    margin-left: 58px;
+}
+/*------------------------------------------------------------------------------------------*/
+.work{
+    width:600px;
+    margin-left: 340px;
+    margin-top: -950px;
+    text-align: justify;
+    
+}
+.experience{
+    border-bottom: 5px solid yellow;
+    width:250px
+}
+.compname{
+    margin-left: 83PX;
+}
+.datepresent{
+    margin-left:140px;
+}
+ul{
+    line-height: 30px;
+}
+/*------------------------------------------------------------------------------------------*/
+.ref{
+    font-size: 25px;
+    border-bottom: 5px solid yellow;
+}
+.ava{
+    margin-left: 60px;
+}
